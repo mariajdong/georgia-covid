@@ -1,5 +1,5 @@
 # COVID-19 in Georgia
-![dph_map.png](images/dph_map.png)
+<img src="images/dph_map.png" width="50%" height="50%"><br>
 _Pulled from the [Georgia DPH website](https://dph.georgia.gov/covid-19-daily-status-report)_.
 
 Analysis by Maria Dong, PharmD
