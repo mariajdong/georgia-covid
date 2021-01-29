@@ -12,13 +12,12 @@ According to the [CDC website](https://www.cdc.gov/coronavirus/2019-ncov/hcp/cli
 
 ## Analysis
 Please access the interactive graphs [here](https://mariajdong.github.io/georgia-covid/).
+_images, descriptions, etc._
 
 ## Resources
 Data for this analysis was pulled from [Kaggle](https://www.kaggle.com/sudalairajkumar/covid19-in-usa?select=us_states_covid19_daily.csv) and was cross-checked with data from [Johns Hopkins](https://coronavirus.jhu.edu/region/us/georgia) and the [Georgia DPH](https://dph.georgia.gov/covid-19-daily-status-report).
 
 Graphs were created using [Plotly Python](https://plotly.com/python/) and [Chart Studio](https://chart-studio.plotly.com/).
-
-_images, descriptions, etc._
 
 ## Possible Additions
 I may add figures exploring testing quantities, differences among quantities, and ICU availability. If you have any suggestions or questions, please feel free to contact me.
