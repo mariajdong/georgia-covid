@@ -46,6 +46,8 @@ d3.json(ga_url).then((response) => {
         line_colors.push(am4core.color('#1A5276'));
     }
 
+    console.log (case_array);
+
     // create arrays for daily increases in cases/deaths; start w/ 0 to keep array length the same
     var new_cases = [0];
     // var new_deaths = [0];
@@ -64,6 +66,9 @@ d3.json(ga_url).then((response) => {
     // var new_deaths_avg = [];
 
     var reverse_new_cases = new_cases.reverse();
+    
+    // manually replace incorrect value d/t bug
+    reverse_new_cases.splice(107, 1, 1866);
 
     for (var x = (reverse_new_cases.length - 1); x > -1; x--) {
         // create moving mini-array of 7 values (or less if 7 are unavailable)
@@ -83,6 +88,8 @@ d3.json(ga_url).then((response) => {
 
         new_cases_avg.push(avg);
     }
+
+    console.log (new_cases);
 
     // zip data together for plotting via backwards loop
     var ga_data = [];
